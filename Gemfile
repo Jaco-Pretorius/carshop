@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'jquery-rails', '~> 2.2.1'
+gem "jquery-ui-rails", "~> 4.0.3"
 
 gem 'sqlite3'
 
@@ -31,3 +32,4 @@ end
 gem 'spree', '2.0.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
+gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-0-stable'
